@@ -28,3 +28,16 @@ Price Distribution: There is not a clear clustering pattern based on price alone
 The clusters are more distinct when looking at the sales variables.
 Based on these insights, we infer that the segmentation is primarily driven by sales volume and unit sales rather than price points. 
 This suggests that customer purchasing patterns are more about the quantity of product moved rather than the price points of those products.
+
+
+**Partitional Clustering**
+There is a significant amount of variation in sales of all three product types across different geographic regions. 
+Sticks and Tubs would be top forms for manufacturers and brands to target to expand their reach and grow their sales by targeting specific geographic markets.
+California, Great Lakes, and Northeast are the regions where sticks and tubs have a decent number of sales. 
+Brands that are struggling to sell their products in a particular region or form could use the insights from the clustering to identify the specific reasons for their low sales and develop strategies to address them.
+
+35% of unit sales are predominantly in the northeast region and have almost equal contributions from the mainstream, premium, super-premium, and value products.
+Brands looking to penetrate the table-spread market should focus on the northeast region for growth and profitability.
+Northeast and midsouth are price-sensitive regions where value and mainstream table spreads have a good footprint.
+For brands/manufacturers with unvarying table spreads and looking for moderate sales volume and moderate profitability, these two regions would be ideal.
+
