@@ -1,0 +1,30 @@
+**For Association Rules:**
+Strong Association with "RFG BUTTER" Subcategory:
+Rules 1-6 indicate a very strong (100% confidence) association between different forms (CHURNED, ROLL, WHIPPED) and the subcategory RFG BUTTER. This suggests that these forms are exclusively or almost exclusively associated with the RFG BUTTER subcategory.
+Similarly, when combining CAG.Tier.Value with ROLL and WHIPPED forms (Rules 4-6), there's a perfect association with RFG BUTTER. This could imply that these specific combinations are uniquely characteristic of the RFG BUTTER subcategory.
+Geography and CAG Tier Value Association with "MARGARINE/SPREADS":
+
+Rules 7-9 show a 100% association between certain geographies and CAG.Tier.Value of VALUE with the MARGARINE/SPREADS subcategory. This suggests that in these specific geographic areas, products classified as VALUE are always associated with MARGARINE/SPREADS.
+This insight can be particularly useful for targeted marketing and inventory management in these geographies.
+
+These insights can inform various business strategies, including product placement, inventory stocking, and promotional campaigns. 
+For instance, knowing that certain forms are exclusively associated with a specific subcategory can help in efficient stocking of products in various locations.
+Additionally, understanding these associations can aid in tailoring marketing strategies for specific geographic locations, ensuring that the marketing efforts are resonating with the purchasing patterns and preferences of the local market.
+
+**For Hierarchical CLustering**
+Cluster Separation: The clusters appear to be well-separated in the scatter plots involving Total_Unit_Sale and Total_Volume_Sale, which indicates that these two variables are good predictors for differentiating between clusters.
+
+Price and Sales Relationship: There seems to be a positive correlation between Total_Unit_Sale and Total_Volume_Sale. As the number of units sold increases, the total volume sold also increases, which is expected since these two are related measures of sales.
+
+Cluster Characteristics:
+The red cluster seems to represent items with low Price.per.Unit and Price.per.Volume, and also low Total_Unit_Sale and Total_Volume_Sale.
+The green cluster might represent items with higher sales in both units and volume, as seen by the upward trend in scatter plots involving Total_Unit_Sale and Total_Volume_Sale.
+The black cluster is not as clearly defined in terms of sales volume and unit sales but seems to be characterized by higher prices per unit and per volume.
+
+Outliers: There are a few data points that stand out from the clusters, especially in the Price.per.Unit and Price.per.Volume scatter plots. 
+These could be outliers or high-value items that are not part of the larger trends in the data.
+
+Price Distribution: There is not a clear clustering pattern based on price alone, which suggests that price may not be the primary driver of the clustering. 
+The clusters are more distinct when looking at the sales variables.
+Based on these insights, we infer that the segmentation is primarily driven by sales volume and unit sales rather than price points. 
+This suggests that customer purchasing patterns are more about the quantity of product moved rather than the price points of those products.
