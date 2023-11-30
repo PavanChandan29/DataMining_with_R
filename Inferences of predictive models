@@ -1,0 +1,34 @@
+**Linear Regression**
+The model suggests that geographical location, time of the year, pricing strategy, product form, and tier value significantly impact unit sales.
+High negative coefficients for some variables (like "Price.per.Unit" and "CAG.Tier.ValueVALUE") need special attention, as they indicate strong inverse relationships with total unit sales.
+Seasonality appears to be a key factor, especially around the end-of-year holidays.
+
+Pricing Strategy Adjustments:
+Given the strong negative impact of "Price.per.Unit" on sales, consider revising pricing strategies. 
+It may be beneficial to explore price optimization techniques to find a balance between profitability and sales volume.
+Since "Price.per.Volume" positively impacts sales, consider offering volume discounts or bulk purchase incentives to encourage larger purchases.
+
+Focus on High-Performing Product Forms:
+Invest more in forms like "SPRAY", "SQUEEZE", "STICK", "QUARTER", and "ROLL", which show positive coefficients, indicating higher sales. 
+This could include increasing production, enhancing marketing efforts, or improving distribution channels for these forms.
+Conduct market research to understand why certain forms (like "FINISHING", "BUNNY", and "LAMB") are less popular and consider phasing them out or rebranding them if they are not profitable.
+
+Geographical Targeting:
+Tailor marketing and sales strategies for different regions based on their sales performance. 
+Regions like the Northeast and Southeast, which show positive coefficients, could be targeted for expansion or increased marketing efforts.
+For regions with negative coefficients (like Mid-South, Plains, and Great Lakes), investigate underlying reasons for lower sales and consider localized strategies to boost performance, such as regional-specific promotions or partnerships.
+
+Product Tiering:
+Products in the "PREMIUM" and "SUPER PREMIUM" categories are more likely to sell better. Consider enhancing the product range in these tiers or shifting focus towards them.
+Address the challenges in the "VALUE" tier, where sales are lower. This could involve re-evaluating the product offerings, improving product quality, or rebranding.
+
+**Random Forest**
+Overall accuracy: The overall accuracy of the model is 80.66%, which means that it correctly classified 80.66% of the data points.
+
+The sensitivity for each class is relatively high, ranging from 0.542 to 0.864. This means that the model is good at identifying true positives for each class. 
+The specificity for each class is also very high, ranging from 0.958 to 0.999.
+This means that the model is very good at identifying true negatives for each class.
+The NPV for each class is also very high, ranging from 0.928 to 0.996. This means that the model is very good at making accurate negative predictions for each class.
+The detection prevalence for each class is relatively high, ranging from 0.112 to 0.455. This means that the model is good at identifying positive cases for each class, relative to the prevalence of positive cases in the dataset.
+Overall, the results of the random forest confusion matrix and statistics suggest that the model is good at predicting the CAG.Form.Value for a given data point. 
+The model has high accuracy, sensitivity, specificity, PPV, NPV, detection rate, detection prevalence, and balanced accuracy for all four classes.
