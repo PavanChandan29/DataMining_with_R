@@ -1,0 +1,15 @@
+Categorical Columns:
+Geography: The geographic location where products are sold.
+Time: The time period (month) of the sales data.
+Sub.Category.Name: The subcategory of the product, either butter or margarine.
+Form: The form of the product.
+CAG.Tier.Value: Tier value of the product.
+Numerical Columns:
+Price.per.Unit: The price per unit of the product.
+Price.per.Volume: The price per volume of the product.
+Total_Unit_Sale: The total units of the product sold.
+Total_Volume_Sale: The total volume of the product sold.
+
+Data Types:
+Categorical columns are of type 'object'.
+Numerical columns are of type 'float64'.
