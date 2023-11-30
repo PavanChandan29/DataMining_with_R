@@ -3,7 +3,7 @@ Data mining on sales data of table spreads
 
 # Objectives for this data mining project are as follows:
 _Understand Sales Dynamics:_ 
-Analyze the sales data of table spreads across different geographies, subcategories, forms, and tiers to understand the dynamics influencing sales.  
+Analyze the sales data of table spreads across different geographies, subcategories, forms, and tiers to understand the dynamics influencing sales.  return 
 _Identify Key Drivers of Sales:_ 
 Determine the factors that most significantly impact sales, such as price, geographic location, product form, and tier value.  
 _Segmentation and Targeting:_ 
