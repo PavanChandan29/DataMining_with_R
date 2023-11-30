@@ -12,7 +12,7 @@ _Segmentation and Targeting:_
 Utilize clustering to identify distinct segments in the data. This will help in understanding the different consumer groups or market segments, which can be targeted with specific strategies.   
 
 _Predictive Modeling:_ 
-Develop logistic regression, and random forest models to predict sales. This will aid in understanding the relationship between different classes and sales, and in forecasting future sales.   
+Develop regression, and random forest models to predict sales. This will aid in understanding the relationship between different classes and sales, and in forecasting future sales.   
 
 _Model Comparison and Selection:_ 
 Compare different models based on their performance to select the best model for predicting sales.   
